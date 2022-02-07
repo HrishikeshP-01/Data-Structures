@@ -16,9 +16,15 @@
     <Filter Include="Source Files\Stack">
       <UniqueIdentifier>{4ce64ea3-3da6-40fa-99e5-790995eca857}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Queue">
+      <UniqueIdentifier>{10e30205-ea71-4a4e-9768-32ff6a6ab775}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -27,7 +33,13 @@
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
     <ClCompile Include="StackDriver.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="MyQueueDriver.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="MyQueue.cpp">
+      <Filter>Source Files\Queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

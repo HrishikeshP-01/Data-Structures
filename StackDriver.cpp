@@ -1,3 +1,5 @@
+/*
+
 #include "MyStack.h"
 
 int main()
@@ -55,3 +57,5 @@ int main()
 		}
 	} while (option != 9);
 }
+
+*/
